@@ -1,3 +1,4 @@
+mirror to another git
 # AJonP - Resources
 🎥 YouTube: https://bit.ly/ajonp-youtube-sub  
 🌎 Site: https://ajonp.com  
