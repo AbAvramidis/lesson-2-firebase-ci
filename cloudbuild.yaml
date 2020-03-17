@@ -4,6 +4,6 @@ steps:
   args: [ 'build', '-t', 'gcr.io/$_PROJECT_ID/firebase', './dockerfiles/firebase' ]
 # Deploy to firebase
 - name: 'gcr.io/$_PROJECT_ID/firebase'
-  args: ['deploy, '--project', '$_PROJECT_ID']
+  args: ["deploy", "--project", "$_PROJECT_ID"]
 # Optionally you can keep the build images
 # images: ['gcr.io/$PROJECT_ID/hugo', 'gcr.io/$PROJECT_ID/firebase']
